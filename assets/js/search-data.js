@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -391,16 +391,19 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
+            },},{id: "news-a-long-announcement-with-details",
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
+              window.location.href = "/news/template_announcement_2/";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          description: "",
+          section: "News",},{id: "news-enhancing-long-documents-long-form-summarisation-with-self-planning-has-been-accepted-to-aacl-2025-oral",
+          title: 'Enhancing Long Documents Long Form Summarisation with Self-Planning has been accepted to AACL...',
+          description: "",
+          section: "News",},{id: "news-our-paper-on-analyzing-llm-instruction-optimization-for-tabular-fact-verification-has-been-accepted-to-eacl-findings-2026",
+          title: 'Our paper on analyzing LLM instruction optimization for tabular fact verification has been...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
@@ -458,13 +461,6 @@ ninja.data = [{
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/introduction-to-machine-learning/";
             },},{
-        id: 'social-cv',
-        title: 'CV',
-        section: 'Socials',
-        handler: () => {
-          window.open("/assets/pdf/Resume_Mar_2026.pdf", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
@@ -498,13 +494,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://github.com/xiaodu0123", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
         },
       },{
       id: 'light-theme',
