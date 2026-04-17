@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-13'
+  last_updated: '2026-04-17'
 papers:
   hiNrArAAAAAJ:4OULZ7Gr8RgC:
     citations: 47
@@ -34,6 +34,6 @@ papers:
     title: The hallucinations leaderboard
     year: Unknown Year
   hiNrArAAAAAJ:yD5IFk8b50cC:
-    citations: 173
+    citations: 172
     title: Are we done with mmlu?
     year: '2025'
