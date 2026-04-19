@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Enhancing Long Documents Long Form Summarisation with Self-Planning has been accepted to AACL 2025 (Oral)!
+[Enhancing Long Document Long Form Summarisation with Self-Planning](https://aclanthology.org/2025.ijcnlp-short.27/) has been accepted to AACL 2025 (Oral)!

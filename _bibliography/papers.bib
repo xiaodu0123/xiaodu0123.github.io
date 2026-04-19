@@ -3,16 +3,31 @@
 
 @string{aps = {American Physical Society,}}
 
-@misc{du2026analyzingllminstructionoptimization,
-      title={Analyzing LLM Instruction Optimization for Tabular Fact Verification}, 
-      author={Xiaotang Du and Giwon Hong and Wai-Chung Kwan and Rohit Saxena and Ivan Titov and Pasquale Minervini and Emily Allaway},
-      year={2026},
-      eprint={2602.17937},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2602.17937}, 
-      selected={true},
-      pdf={https://arxiv.org/pdf/2602.17937},
+@inproceedings{du-etal-2026-analyzing,
+    title = "Analyzing {LLM} Instruction Optimization for Tabular Fact Verification",
+    author = "Du, Xiaotang  and
+      Hong, Giwon  and
+      Kwan, Wai-Chung  and
+      Saxena, Rohit  and
+      Titov, Ivan  and
+      Minervini, Pasquale  and
+      Allaway, Emily",
+    editor = "Demberg, Vera  and
+      Inui, Kentaro  and
+      Marquez, Llu{\'i}s",
+    booktitle = "Findings of the {A}ssociation for {C}omputational {L}inguistics: {EACL} 2026",
+    month = mar,
+    year = "2026",
+    address = "Rabat, Morocco",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.findings-eacl.161/",
+    doi = "10.18653/v1/2026.findings-eacl.161",
+    pages = "3078--3108",
+    ISBN = "979-8-89176-386-9",
+    abstract = "Instruction optimization provides a lightweight, model-agnostic approach to enhancing the reasoning performance of large language models (LLMs). This paper presents the first systematic comparison of instruction optimization, based on the DSPy optimization framework, for tabular fact verification. We evaluate four out-of-the-box prompting techniques that cover both text-only prompting and code use: direct prediction, Chain-of-Thought (CoT), ReAct with SQL tools, and CodeAct with Python execution. We study three optimizers from the DSPy framework{---}COPRO, MiPROv2, and SIMBA{---}across four benchmarks and three model families. We find that instruction optimization consistently improves verification accuracy, with MiPROv2 yielding the most stable gains for CoT, and SIMBA providing the largest benefits for ReAct agents, particularly at larger model scales. Behavioral analyses reveal that SIMBA encourages more direct reasoning paths by applying heuristics, thereby improving numerical comparison abilities in CoT reasoning and helping avoid unnecessary tool calls in ReAct agents. Across different prompting techniques, CoT remains effective for tabular fact checking, especially with smaller models. Although ReAct agents built with larger models can achieve competitive performance, they require careful instruction optimization.",
+    abbr={EACL},
+    selected={true},
+    pdf={https://aclanthology.org/2026.findings-eacl.161.pdf},
 }
 @inproceedings{du-etal-2025-enhancing,
     title = "Enhancing Long Document Long Form Summarisation with Self-Planning",
@@ -40,6 +55,7 @@
     pages = "317--332",
     ISBN = "979-8-89176-299-2",
     abstract = "We introduce a novel approach for long context summarisation, highlight-guided generation, that leverages sentence-level information as a content plan to improve the traceability and faithfulness of generated summaries. Our framework applies self-planning methods to identify important content and then generates a summary conditioned on the plan. We explore both an end-to-end and two-stage variants of the approach, finding that the two-stage pipeline performs better on long and information-dense documents. Experiments on long-form summarisation datasets demonstrate that our method consistently improves factual consistency while preserving relevance and overall quality. On GovReport, our best approach has improved ROUGE-L by 4.1 points and achieves about 35{\%} gains in SummaC scores. Qualitative analysis shows that highlight-guided summarisation helps preserve important details, leading to more accurate and insightful summaries across domains.",
+    abbr={AACL},
     selected={true},
     pdf={https://aclanthology.org/2025.ijcnlp-short.27.pdf}
 }
@@ -68,6 +84,7 @@
     pages = "5117--5136",
     ISBN = "979-8-89176-189-6",
     abstract = "Large language models (LLMs) can store a significant amount of factual knowledge in their parameters. However, their parametric knowledge may conflict with the information provided in the context{---}this phenomenon, known as \textit{context-memory knowledge conflicts}, can lead to undesirable model behaviour, such as reliance on outdated or incorrect information. Analysing the internal activations of LLMs, we find that they can internally register the signals of knowledge conflict at mid-layers. Such signals allow us to detect whether a knowledge conflict occurs and use \textit{inference-time} intervention strategies to resolve it. In this work, we propose SpARE, a \textit{training-free} representation engineering method that uses pre-trained sparse auto-encoders (SAEs) to control the knowledge selection behaviour of LLMs. SpARE identifies the functional features that control the knowledge selection behaviours and applies them to edit the internal activations of LLMs at inference time. Our experimental results show that SpARE can effectively control the usage of either knowledge source to resolve knowledge conflict in open-domain question-answering tasks, surpassing existing representation engineering methods (+10{\%}) as well as contrastive decoding methods (+15{\%}).",
+    abbr={NAACL},
     pdf={https://aclanthology.org/2025.naacl-long.264.pdf},
 }
 
@@ -102,6 +119,7 @@
     pages = "5069--5096",
     ISBN = "979-8-89176-189-6",
     abstract = "Maybe not. We identify and analyse errors in the popular Massive Multitask Language Understanding (MMLU) benchmark. Even though MMLU is widely adopted, our analysis demonstrates numerous ground truth errors that obscure the true capabilities of LLMs. For example, we find that 57{\%} of the analysed questions in the Virology subset contain errors. To address this issue, we introduce a comprehensive framework for identifying dataset errors using a novel error annotation protocol. Then, we create MMLU-Redux, which is a subset of 5,700 manually re-annotated questions across all 57 MMLU subjects. Using MMLU-Redux, we demonstrate significant discrepancies with the model performance metrics that were originally reported. Our results strongly advocate for revising MMLU{'}s error-ridden questions to enhance its future utility and reliability as a benchmark. Therefore, we open up MMLU-Redux for additional annotation.",
+    abbr={NAACL},
     pdf={https://aclanthology.org/2025.naacl-long.262.pdf}
 }
 
@@ -126,6 +144,7 @@
     doi = "10.18653/v1/2022.findings-acl.123",
     pages = "1561--1583",
     abstract = "The extreme multi-label classification (XMC) task aims at tagging content with a subset of labels from an extremely large label set. The label vocabulary is typically defined in advance by domain experts and assumed to capture all necessary tags. However in real world scenarios this label set, although large, is often incomplete and experts frequently need to refine it. To develop systems that simplify this process, we introduce the task of open vocabulary XMC (OXMC): given a piece of content, predict a set of labels, some of which may be outside of the known tag set. Hence, in addition to not having training data for some labels{--}as is the case in zero-shot classification{--}models need to invent some labels on-thefly. We propose GROOV, a fine-tuned seq2seq model for OXMC that generates the set of labels as a flat sequence and is trained using a novel loss independent of predicted label order. We show the efficacy of the approach, experimenting with popular XMC datasets for which GROOV is able to predict meaningful labels outside the given vocabulary while performing on par with state-of-the-art solutions for known labels.",
+    abbr={ACL},
     pdf={https://aclanthology.org/2022.findings-acl.123.pdf}
 }
 
@@ -137,5 +156,6 @@
       archivePrefix={arXiv},
       primaryClass={cs.IR},
       url={https://arxiv.org/abs/2209.06148},
+      abbr={arXiv},
       pdf={https://arxiv.org/pdf/2209.06148}
 }
