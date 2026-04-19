@@ -23,28 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/template_announcement_2/";
-            },},{id: "news-enhancing-long-document-long-form-summarisation-with-self-planning-has-been-accepted-to-aacl-2025-oral",
+        },{id: "news-enhancing-long-document-long-form-summarisation-with-self-planning-has-been-accepted-to-aacl-2025-oral",
           title: 'Enhancing Long Document Long Form Summarisation with Self-Planning has been accepted to AACL...',
           description: "",
           section: "News",},{id: "news-our-paper-on-analyzing-llm-instruction-optimization-for-tabular-fact-verification-has-been-accepted-to-eacl-findings-2026",
           title: 'Our paper on analyzing LLM instruction optimization for tabular fact verification has been...',
           description: "",
-          section: "News",},{id: "teachings-data-science-fundamentals",
-          title: 'Data Science Fundamentals',
-          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/teachings/data-science-fundamentals/";
-            },},{id: "teachings-introduction-to-machine-learning",
-          title: 'Introduction to Machine Learning',
-          description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/teachings/introduction-to-machine-learning/";
-            },},{
+          section: "News",},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
