@@ -1,11 +1,14 @@
 ---
-layout: page
+layout: none
 permalink: /cv/
 title: CV
 nav: true
 nav_order: 3
 ---
-
-<script>
-  window.location.replace("{{ '/assets/pdf/Resume.pdf' | relative_url }}");
-</script>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="refresh" content="0; url={{ '/assets/pdf/Resume.pdf' | relative_url }}" />
+  </head>
+  <body></body>
+</html>

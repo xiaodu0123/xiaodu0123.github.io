@@ -9,7 +9,7 @@ last_name: Du
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  I am Xiaotang Du, a PhD student in Natural Language Processing at the University of Edinburgh, advised by Pasquale Minervini, Emily Allaway and Ivan Titov. My research focuses on developing explainable and verifiable systems for solving complex knowledge-intensive tasks, with a particular interest in making NLP systems more transparent and trustworthy.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
