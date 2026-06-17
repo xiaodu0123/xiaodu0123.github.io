@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-05-27'
+  last_updated: '2026-06-17'
 papers:
   hiNrArAAAAAJ:4OULZ7Gr8RgC:
-    citations: 49
+    citations: 50
     title: The hallucinations leaderboard--an open effort to measure hallucinations in large language models
     year: '2024'
   hiNrArAAAAAJ:KxtntwgDAa4C:
@@ -14,7 +14,7 @@ papers:
     title: Enhancing Long Document Long Form Summarisation with Self-Planning
     year: '2025'
   hiNrArAAAAAJ:bFI3QPDXJZMC:
-    citations: 50
+    citations: 54
     title: Steering knowledge selection behaviours in LLMs via sae-based representation engineering
     year: '2025'
   hiNrArAAAAAJ:cFHS6HbyZ2cC:
@@ -26,7 +26,7 @@ papers:
     title: Open vocabulary extreme classification using generative models
     year: '2022'
   hiNrArAAAAAJ:f2IySw72cVMC:
-    citations: 2
+    citations: 4
     title: Analysing the residual stream of language models under knowledge conflicts
     year: '2024'
   hiNrArAAAAAJ:nb7KW1ujOQ8C:
@@ -34,6 +34,6 @@ papers:
     title: The hallucinations leaderboard
     year: Unknown Year
   hiNrArAAAAAJ:yD5IFk8b50cC:
-    citations: 191
+    citations: 202
     title: Are we done with mmlu?
     year: '2025'
