@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-06-17'
+  last_updated: '2026-06-24'
 papers:
   hiNrArAAAAAJ:4OULZ7Gr8RgC:
-    citations: 50
+    citations: 52
     title: The hallucinations leaderboard--an open effort to measure hallucinations in large language models
     year: '2024'
   hiNrArAAAAAJ:KxtntwgDAa4C:
@@ -34,6 +34,6 @@ papers:
     title: The hallucinations leaderboard
     year: Unknown Year
   hiNrArAAAAAJ:yD5IFk8b50cC:
-    citations: 202
+    citations: 209
     title: Are we done with mmlu?
     year: '2025'
