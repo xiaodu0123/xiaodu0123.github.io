@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-24'
+  last_updated: '2026-06-29'
 papers:
   hiNrArAAAAAJ:4OULZ7Gr8RgC:
     citations: 52
@@ -10,11 +10,11 @@ papers:
     title: Analyzing LLM Instruction Optimization for Tabular Fact Verification
     year: '2026'
   hiNrArAAAAAJ:P5F9QuxV20EC:
-    citations: 0
+    citations: 1
     title: Enhancing Long Document Long Form Summarisation with Self-Planning
     year: '2025'
   hiNrArAAAAAJ:bFI3QPDXJZMC:
-    citations: 54
+    citations: 55
     title: Steering knowledge selection behaviours in LLMs via sae-based representation engineering
     year: '2025'
   hiNrArAAAAAJ:cFHS6HbyZ2cC:
@@ -22,7 +22,7 @@ papers:
     title: 'Entity Tagging: Extracting Entities in Text Without Mention Supervision'
     year: '2022'
   hiNrArAAAAAJ:dfsIfKJdRG4C:
-    citations: 23
+    citations: 24
     title: Open vocabulary extreme classification using generative models
     year: '2022'
   hiNrArAAAAAJ:f2IySw72cVMC:
@@ -34,6 +34,6 @@ papers:
     title: The hallucinations leaderboard
     year: Unknown Year
   hiNrArAAAAAJ:yD5IFk8b50cC:
-    citations: 209
+    citations: 218
     title: Are we done with mmlu?
     year: '2025'
