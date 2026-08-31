@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-24'
+  last_updated: '2026-08-31'
 papers:
   hiNrArAAAAAJ:4OULZ7Gr8RgC:
     citations: 58
@@ -34,6 +34,6 @@ papers:
     title: Analysing the residual stream of language models under knowledge conflicts
     year: '2024'
   hiNrArAAAAAJ:yD5IFk8b50cC:
-    citations: 270
+    citations: 273
     title: Are we done with mmlu?
     year: '2025'
